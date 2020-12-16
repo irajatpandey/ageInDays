@@ -5,7 +5,7 @@ function calculate(){
   console.log(days);
 
   var h1 = document.createElement('h1');
-  var textAns = document.createTextNode('You are ' + days + ' days old');
+  var textAns = document.createTextNode('You are ' + days + ' days' + ' old');
   h1.setAttribute('id', 'calculate');
   h1.appendChild(textAns);
   document.getElementById('result').appendChild(h1);
